@@ -60,7 +60,8 @@ app.post('/slack/revise', async (req, res) => {
     }
 
     res.json({
-      response_type: 'in_channel',
+      replace_original: true,
+      response_type: 'ephemeral',
       text: 'Revising your text... :wheelchair:'
     });
 
@@ -72,7 +73,8 @@ app.post('/slack/revise', async (req, res) => {
       console.log(`Revised: ${revisedText}`);
 
       const followUpResponse = {
-        response_type: 'in_channel',
+        response_type: 'ephemeral',
+        replace_original: true,
         blocks: [
           {
             type: 'section',

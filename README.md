@@ -1,4 +1,10 @@
-# ✏️ Slack `/revise` Command – Design Document
+# Grammar Wheelchair ♿
+
+A Slack slash command that improves text grammar and clarity using OpenAI GPT.
+
+## Demo
+
+![Screenshot](screenshot.png)
 
 ## Overview
 
