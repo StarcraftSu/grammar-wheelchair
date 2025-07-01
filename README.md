@@ -19,6 +19,8 @@ This project implements a **Slack Slash Command** called `/revise` that rewrites
 - Replies directly in Slack with a revised version.
 - Can be tested and developed locally using `ngrok`.
 
+**Note:** Ephemeral messages (only visible to you) will be automatically cleared when the app restarts.
+
 ---
 
 ## Architecture
